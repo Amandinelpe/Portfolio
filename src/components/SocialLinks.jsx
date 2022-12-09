@@ -21,7 +21,7 @@ const SocialLinks = () => {
           GitHub <FaGithub size={30} />
         </>
       ),
-      href: "https://www.linkedin.com/in/amandine-leporace-aa023222a/",
+      href: "https://github.com/Amandinelpe?tab=repositories",
     },
     {
       id: 3,
