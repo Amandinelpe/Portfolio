@@ -1,6 +1,6 @@
 import About from "./components/About";
 import Contact from "./components/Contact";
-import SoftSkills from "./components/SoftSkills";
+import HardSkills from "./components/HardSkills";
 import Home from "./components/Home";
 import NavBar from "./components/NavBar";
 import Portfolio from "./components/Portfolio";
@@ -13,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Portfolio />
-      <SoftSkills />
+      <HardSkills />
       <Contact />
 
       <SocialLinks />

@@ -34,7 +34,10 @@ const Portfolio = () => {
           </p>
           <p className="py-6 flex flex-row gap-4 text-marron">
             Check out some of my work right here
-            <BsArrowDownRightCircle size={25} />
+            <BsArrowDownRightCircle
+              size={25}
+              className="animate-bounce w-6 h-6"
+            />
           </p>
         </div>
 
