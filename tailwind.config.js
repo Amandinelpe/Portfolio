@@ -24,7 +24,11 @@ module.exports = {
       prune: "#C3A6A0",
       marron: "#A15C38",
     },
-    extend: {},
+    extend: {
+      screens: {
+        "-sm": { max: "639px" },
+      },
+    },
     fontFamily: {
       signature: ["Great Vibes"],
       link: ["Raleway"],

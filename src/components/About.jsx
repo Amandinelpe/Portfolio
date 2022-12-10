@@ -4,7 +4,7 @@ import { ImFilePdf } from "react-icons/im";
 
 const About = () => {
   return (
-    <div name="about" className="w-full h-screen bg-beige text-prune">
+    <div name="about" className="w-full h-screen bg-beige text-prune -sm:pt-28">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-link inline border-b-4 border-marron text-marron">
