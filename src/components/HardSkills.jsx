@@ -69,8 +69,8 @@ const HardSkills = () => {
   ];
 
   return (
-    <div name="soft skills" className="bg-beige w-full h-full">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-marron pt-72">
+    <div name="hard-skills" className="bg-beige w-full h-full">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-marron pt-40">
         <div>
           <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
             Hard Skills
