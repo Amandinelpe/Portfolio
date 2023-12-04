@@ -8,17 +8,19 @@ const Home = () => {
     <div name="home" className="h-screen w-full bg-white">
       <div className="max-w-screen-lg mx-auto flex flex-col items-center justify-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
-          <h1 className="text-4xl sm:text-7xl font-bold font-signature text-green mt-8">
+          <h1 className="text-4xl sm:text-7xl font-bold font-signature text-green mt-16">
             {" "}
             Hi !
           </h1>
-          <h2 className="text-4xl sm:text-7xl text-black font-link">
-            I'm a Full Stack Developer
+          <h2 className="text-4xl sm:text-6xl text-black font-link">
+            Technical Integration Consultante
           </h2>
           <p className="text-black py-4 max-w-md">
             Currently, i love to work on web applications using technologies
-            like JavaScript, React, Node, Express, GraphQL, React Native and
-            mySQL.
+            like JavaScript, React, Node, Express, GraphQL, TypeScript, React
+            Native and mySQL. I am currently working on technical
+            implementations such as : Shopify, WooCommerce, Prestashop, Google
+            Tag Manager or even server-to-server.
           </p>
 
           <div>
@@ -40,7 +42,7 @@ const Home = () => {
           <img
             src={Avatar}
             alt="my profile"
-            className="rounded-3xl mx-auto w-2/3 md:w-full mt-10"
+            className="rounded-3xl mx-auto w-2/3 md:w-full mt-12"
           />
         </div>
       </div>

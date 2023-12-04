@@ -10,6 +10,7 @@ import SQL from "../assets/SQL.png";
 import Github from "../assets/Github.png";
 import figma from "../assets/figma.png";
 import GraphQl from "../assets/GraphQL.png";
+import typescript from "../assets/typescript.png";
 
 const HardSkills = () => {
   const techs = [
@@ -78,6 +79,12 @@ const HardSkills = () => {
       src: GraphQl,
       title: "GraphQL",
       style: "shadow-rose",
+    },
+    {
+      id: 11,
+      src: typescript,
+      title: "TypeScript",
+      style: "shadow-bleu",
     },
   ];
 
