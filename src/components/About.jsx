@@ -16,8 +16,9 @@ const About = () => {
           mystérieux mais aussi très intéressant pour moi. Dans mon désir de
           mieux appréhender le monde du développement, j'ai intégré avec
           enthousiasme une formation intensive de cinq mois à la Wild Code
-          School en septembre 2022. Forte des bases acquises en REACT -
-          JavaScript - Node.js, c'est auprès de Affilae que j'ai la chance
+          School en septembre 2022. Forte des bases acquises, je poursuis une
+          alternance pour obtenir le titre RNCP de Concepteur Développeur
+          d'Applications. C'est auprès de Affilae que j'ai la chance
           d'implémenter des intégrations techniques, de travailler sur la
           maintenances de script, et également en tant que support technique. De
           plus, j'ai l'occasion de découvrir l'affiliation marketing et son
