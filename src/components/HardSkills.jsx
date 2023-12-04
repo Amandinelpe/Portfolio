@@ -9,6 +9,7 @@ import Express from "../assets/Express.png";
 import SQL from "../assets/SQL.png";
 import Github from "../assets/Github.png";
 import figma from "../assets/figma.png";
+import GraphQl from "../assets/GraphQL.png";
 
 const HardSkills = () => {
   const techs = [
@@ -66,16 +67,26 @@ const HardSkills = () => {
       title: "Figma",
       style: "shadow-figma",
     },
+    {
+      id: 10,
+      src: REACT,
+      title: "React Native",
+      style: "shadow-bleuclair",
+    },
+    {
+      id: 11,
+      src: GraphQl,
+      title: "GraphQL",
+      style: "shadow-rose",
+    },
   ];
 
   return (
-    <div name="hard-skills" className="bg-beige w-full h-full">
-      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-marron pt-40">
+    <div name="hard-skills" className="bg-white w-full h-full">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-green pt-40">
         <div>
-          <p className="text-4xl font-bold border-b-4 border-gray-500 p-2 inline">
-            Hard Skills
-          </p>
-          <p className="py-6 flex flex-row gap-4">
+          <p className="text-5xl font-signature p-2 inline">Skills</p>
+          <p className="py-6 flex flex-row gap-4 text-black ">
             These are the technologies I've worked with
             <BsArrowDownRightCircle
               size={25}
@@ -84,7 +95,7 @@ const HardSkills = () => {
           </p>
         </div>
 
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 text-prune">
+        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-8 text-center py-8 px-12 sm:px-0 text-black">
           {techs.map(({ id, src, title, style }) => (
             <div
               key={id}

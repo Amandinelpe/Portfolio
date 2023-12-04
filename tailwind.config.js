@@ -2,7 +2,7 @@ module.exports = {
   content: ["./src/**/*.{js,jsx,ts,tsx}"],
   theme: {
     colors: {
-      green: "#64766A",
+      green: "#7fb3b5",
       blue: "#BACEC1",
       white: "#FFFFFF",
       grey: "#F4F2F3",
@@ -21,8 +21,7 @@ module.exports = {
       yellow2: "#F7DF1F",
       green2: "#396150",
       transparent: "transparent",
-      prune: "#C3A6A0",
-      marron: "#A15C38",
+      rose: "#e535ab",
     },
     extend: {
       screens: {
@@ -33,6 +32,5 @@ module.exports = {
       signature: ["Great Vibes"],
       link: ["Raleway"],
     },
-    plugins: [],
   },
 };

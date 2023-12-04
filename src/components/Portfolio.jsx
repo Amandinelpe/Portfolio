@@ -1,7 +1,7 @@
 import React from "react";
 import { BsArrowDownRightCircle } from "react-icons/bs";
 import WildPost from "../assets/WildPost.png";
-import WildFestival from "../assets/WildFestival.png";
+// import WildFestival from "../assets/WildFestival.png";
 import Hackathon from "../assets/Hackathon.png";
 import KasualGames from "../assets/KasualGames.png";
 
@@ -13,12 +13,12 @@ const Portfolio = () => {
       demoHref: "https://thewildpost.netlify.app/",
       codeHref: "https://github.com/Amandinelpe/TheWildPost",
     },
-    {
-      id: 2,
-      src: WildFestival,
-      demoHref: "/",
-      codeHref: "https://github.com/Amandinelpe/WildFestival",
-    },
+    // {
+    //   id: 2,
+    //   src: WildFestival,
+    //   demoHref: "/",
+    //   codeHref: "https://github.com/Amandinelpe/WildFestival",
+    // },
     {
       id: 3,
       src: Hackathon,
@@ -34,16 +34,11 @@ const Portfolio = () => {
   ];
 
   return (
-    <div
-      name="portfolio"
-      className="bg-beige w-full text-prune h-full"
-    >
+    <div name="portfolio" className="bg-white w-full text-prune h-full">
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full pt-40">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 border-marron text-marron">
-            Portfolio
-          </p>
-          <p className="py-6 flex flex-row gap-4 text-marron">
+          <p className="text-5xl font-signature text-green">Portfolio</p>
+          <p className="py-6 flex flex-row gap-4 text-black">
             Check out some of my work right here
             <BsArrowDownRightCircle
               size={25}
@@ -62,12 +57,12 @@ const Portfolio = () => {
               />
               <div className="flex items-center justify-center">
                 <a href={demoHref} target="_blank" rel="noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-marron">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-black">
                     Demo
                   </button>
                 </a>
                 <a href={codeHref} target="_blank" rel="noreferrer">
-                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-marron">
+                  <button className="w-1/2 px-6 py-3 m-4 duration-200 hover:scale-105 text-black">
                     Code
                   </button>
                 </a>

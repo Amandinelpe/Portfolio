@@ -21,7 +21,7 @@ const NavBar = () => {
     },
     {
       id: 4,
-      link: "hard-skills",
+      link: "Skills",
     },
     {
       id: 5,
@@ -30,9 +30,9 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full h-20 px-4 text-marron  bg-beige fixed">
+    <div className="flex justify-between items-center w-full h-20 px-4 text-green  bg-white fixed">
       <div>
-        <h1 className="text-5xl -sm:text-3xl font-signature ml-2">
+        <h1 className="text-3xl -sm:text-3xl font-signature ml-2">
           Amandine Leporace
         </h1>
       </div>
@@ -41,7 +41,7 @@ const NavBar = () => {
         {links.map(({ id, link }) => (
           <li
             key={id}
-            className="px-4 cursor-pointer capitalize font-medium text-marron hover:scale-105 duration-200 font-link"
+            className="px-4 cursor-pointer capitalize font-medium text-black hover:scale-105 duration-200 font-link"
           >
             <Link to={link} smooth duration={500}>
               {link}
@@ -52,7 +52,7 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-marron md:hidden"
+        className="cursor-pointer pr-4 z-10 text-black md:hidden"
       >
         {nav ? <GiCrossMark size={30} /> : <RiMenu3Line size={30} />}
       </div>
