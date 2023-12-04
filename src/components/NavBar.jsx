@@ -52,13 +52,13 @@ const NavBar = () => {
 
       <div
         onClick={() => setNav(!nav)}
-        className="cursor-pointer pr-4 z-10 text-black md:hidden"
+        className="cursor-pointer pr-4 z-10 text-green md:hidden"
       >
         {nav ? <GiCrossMark size={30} /> : <RiMenu3Line size={30} />}
       </div>
 
       {nav && (
-        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-beige text-marron">
+        <ul className="flex flex-col justify-center items-center absolute top-0 left-0 w-full h-screen bg-white text-black">
           {links.map(({ id, link }) => (
             <li
               key={id}
